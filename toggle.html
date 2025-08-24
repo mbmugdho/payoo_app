@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="button1">Button 1</button>
+    <button id="button2">Button 2</button>
+
+    <h1 id="heading1">I am heading 1
+      <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+      dolorum et deleniti hic? Ipsum accusantium voluptatem odit maxime id non
+      possimus illo. Quia ratione officiis quas dolorem illum voluptatibus
+      officia!
+    </p>
+    </h1>
+    
+    <h1 id="heading2">I am heading 2
+      <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+      laboriosam eaque optio accusantium eum! Saepe, eligendi? Molestiae nisi
+      explicabo deleniti neque accusamus vero dolore adipisci officia magni,
+      aliquid provident quod praesentium, vitae nostrum alias, ducimus fuga
+      beatae quidem inventore. Veniam atque at cum animi eveniet repellat optio!
+      Quo, perspiciatis quasi.
+    </p>
+    </h1>
+    
+
+    <script>
+      document.getElementById('button1').addEventListener('click', function () {
+        document.getElementById('heading2').style.display = 'none'
+        document.getElementById('heading1').style.display = 'block'
+      })
+      document.getElementById('button2').addEventListener('click', function () {
+        document.getElementById('heading1').style.display = 'none'
+        document.getElementById('heading2').style.display = 'block'
+      })
+    </script>
+  </body>
+</html>
