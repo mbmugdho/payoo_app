@@ -35,7 +35,7 @@
           </div>
         </div>
         <div>
-          <button class="btn text-[#08080880] rounded-xl">
+          <button class="btn text-[#08080880] rounded-xl" id="logout-btn">
             <i
               class="fa-solid fa-arrow-right-from-bracket rotate-180 text-gray-700"
             ></i>
@@ -215,11 +215,11 @@
         <h1 class="my-5 ml-3 font-bold">Cash Out</h1>
         <form class="bg-white p-8 rounded-2xl">
           <div class="mb-3">
-            <label class="font-semibold" for="">Agent Number</label>
+            <label  class="font-semibold" for="">Agent Number</label>
             <br />
             <input
               type="text"
-              id=""
+              id="agent-number"
               placeholder="Enter agent number"
               class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full"
             />
@@ -239,7 +239,7 @@
             <br />
             <input
               type="text"
-              id=""
+              id="withdraw-pin"
               placeholder="Enter 4 digit pin number"
               class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full"
             />
@@ -262,7 +262,7 @@
             <br />
             <input
               type="text"
-              id=""
+              id="user-acc-number"
               placeholder="Enter 11 digit number"
               class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full"
             />
@@ -272,7 +272,7 @@
             <br />
             <input
               type="text"
-              id="withdraw-amount"
+              id="transfer-amount"
               placeholder="Add Amount to Send"
               class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full"
             />
@@ -282,7 +282,7 @@
             <br />
             <input
               type="text"
-              id=""
+              id="transfer-pin"
               placeholder="Enter 4 digit pin number"
               class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full"
             />
@@ -290,7 +290,7 @@
 
           <button
             class="btn text-white bg-[#0874F2] btn-primary w-full mt-5 rounded-3xl border-none"
-            id="withdraw-button"
+            id="sendnow-button"
           >
             Send Now
           </button>
@@ -326,7 +326,7 @@
             <h1 class="font-semibold">Pay Bill</h1>
             <select
               class="select bg-[#f4f5f7] mt-3 rounded-3xl w-full"
-              id="bank"
+              id="bill"
             >
               <option disabled selected>Select To Pay</option>
               <option>Electricity Bill</option>
@@ -341,7 +341,7 @@
             <br />
             <input
               type="text"
-              id=""
+              id="biller-acc-number"
               placeholder="Enter account number"
               class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full"
             />
@@ -351,7 +351,7 @@
             <br />
             <input
               type="text"
-              id="withdraw-amount"
+              id="bill-amount"
               placeholder="Add Amount to Pay"
               class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full"
             />
@@ -361,7 +361,7 @@
             <br />
             <input
               type="text"
-              id=""
+              id="bill-pin"
               placeholder="Enter 4 digit pin number"
               class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full"
             />
@@ -369,7 +369,7 @@
 
           <button
             class="btn text-white bg-[#0874F2] btn-primary w-full mt-5 rounded-3xl border-none"
-            id="withdraw-button"
+            id="bill-btn"
           >
             Send Now
           </button>
